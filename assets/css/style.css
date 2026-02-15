@@ -412,8 +412,7 @@ main {
 }
 
 .contact-info {
-  max-width: calc(100% - 46px);
-  width: calc(100% - 46px);
+  width: 100%;
 }
 
 .contact-title {
@@ -707,6 +706,13 @@ main {
 .modal-img-wrapper > img { display: none; }
 
 .modal-title { margin-bottom: 4px; }
+
+.modal-content{
+  max-height: 90vh;      /* keeps modal within screen */
+  overflow-y: auto;      /* enables scrolling */
+  overflow-x: hidden;
+  padding-right: 5px;    /* optional: prevents scrollbar overlap */
+}
 
 .modal-content time {
   font-size: var(--fs-6);
@@ -2028,4 +2034,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   .portfolio-modal-image{
     flex:auto;
   }
+}
+
+.portfolio-modal{
+  max-height: 90vh;
+  overflow-y: auto;
 }
