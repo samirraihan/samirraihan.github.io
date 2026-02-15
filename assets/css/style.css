@@ -1745,7 +1745,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * PORTFOLIO
    */
 
-  .project-list { grid-template-columns: repeat(3, 1fr); }
+  .project-list { grid-template-columns: repeat(2, 1fr); }
 
 
 
@@ -1897,4 +1897,135 @@ textarea.form-input::-webkit-resizer { display: none; }
 .contact-item a{
   color: var(--light-gray-70);
   text-decoration:none;
+}
+
+/* ===== Portfolio Modal Container ===== */
+
+.portfolio-modal-container{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(0,0,0,0.75);
+  z-index:9999;
+  opacity:0;
+  pointer-events:none;
+  transition:0.25s ease;
+}
+
+.portfolio-modal-container.active{
+  opacity:1;
+  pointer-events:all;
+}
+
+/* ===== Modal Box ===== */
+
+.portfolio-modal{
+  width:950px;
+  max-width:95%;
+  background:#1e1e1e;
+  border-radius:16px;
+  padding:30px;
+  position:relative;
+  transform:translateY(20px);
+  transition:0.25s;
+}
+
+.portfolio-modal-container.active .portfolio-modal{
+  transform:translateY(0);
+}
+
+/* ===== Modal Close Button ===== */
+
+.portfolio-modal .modal-close-btn{
+  position:absolute;
+  top:12px;
+  right:12px;
+  background:#2a2a2a;
+  border:none;
+  width:36px;
+  height:36px;
+  border-radius:10px;
+  cursor:pointer;
+  color:#fff;
+}
+
+/* ===== Body Layout ===== */
+
+.portfolio-modal-body{
+  display:flex;
+  gap:35px;
+  align-items:center;
+}
+
+/* ===== Image ===== */
+
+.portfolio-modal-image{
+  flex:0 0 420px;
+}
+
+.portfolio-modal-image img{
+  width:100%;
+  border-radius:14px;
+  object-fit:cover;
+}
+
+/* ===== Content ===== */
+
+.portfolio-modal-content{
+  flex:1;
+}
+
+.portfolio-modal-content h3{
+  font-size:24px;
+  font-weight:700;
+  margin-bottom:10px;
+  color:#fff;
+}
+
+#portfolio-modal-tech{
+  font-size:14px;
+  color:#ffc107;
+  margin-bottom:15px;
+}
+
+#portfolio-modal-desc{
+  font-size:15px;
+  color:#cfcfcf;
+  line-height:1.6;
+}
+
+/* ===== Button ===== */
+
+.portfolio-btn{
+  display:inline-block;
+  margin-top:18px;
+  padding:12px 22px;
+  background:#ffc107;
+  border-radius:10px;
+  font-weight:600;
+  color:#000;
+  text-decoration:none;
+  transition:0.2s;
+}
+
+.portfolio-btn:hover{
+  transform:translateY(-2px);
+}
+
+/* ===== Responsive ===== */
+
+@media(max-width:768px){
+  .portfolio-modal-body{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .portfolio-modal-image{
+    flex:auto;
+  }
 }

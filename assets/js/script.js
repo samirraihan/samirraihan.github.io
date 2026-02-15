@@ -157,3 +157,39 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+/* ================= PORTFOLIO MODAL ================= */
+
+const portfolioItems = document.querySelectorAll(".project-item a");
+const portfolioModal = document.getElementById("portfolio-modal");
+const portfolioModalImg = document.getElementById("portfolio-modal-img");
+const portfolioModalTitle = document.getElementById("portfolio-modal-title");
+const portfolioModalDesc = document.getElementById("portfolio-modal-desc");
+const portfolioOverlay = document.getElementById("portfolio-overlay");
+const portfolioClose = document.getElementById("portfolio-close");
+const portfolioModalTech = document.getElementById("portfolio-modal-tech");
+const portfolioModalLink = document.getElementById("portfolio-modal-link");
+
+portfolioItems.forEach(item => {
+  item.addEventListener("click", function(e){
+    e.preventDefault();
+
+    const parent = this.closest(".project-item");
+
+    portfolioModalImg.src = parent.dataset.img;
+    portfolioModalTitle.innerText = parent.dataset.title;
+    portfolioModalTech.innerText = parent.dataset.tech;
+    portfolioModalDesc.innerText = parent.dataset.desc;
+    portfolioModalLink.href = parent.dataset.link;
+
+    portfolioModal.classList.add("active");
+  });
+});
+
+portfolioOverlay.addEventListener("click", () => {
+  portfolioModal.classList.remove("active");
+});
+
+portfolioClose.addEventListener("click", () => {
+  portfolioModal.classList.remove("active");
+});
