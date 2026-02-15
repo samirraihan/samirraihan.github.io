@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samir's - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Samir Raihan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Samir Raihan">Samir Raihan</h1>
+
+          <p class="title">
+            Senior Software Engineer
+          </p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:samirraihan93@gmail.com" class="contact-link">samirraihan93@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+8801766932193" class="contact-link">+8801766932193</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mohammadpur, Dhaka, Bangladesh</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/samirraihan" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/samirraihan" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Senior Full-Stack Engineer specializing in Laravel and Vue.js with 10+ years of
+            experience building scalable web platforms, realtime systems, and enterprise-grade
+            REST APIs. Experienced in designing high-performance backend architectures,
+            queue-driven processing systems, authentication infrastructures, and cloud-ready deployments.
+
+          </p>
+
+          <p>
+            Proven track record delivering production-ready SaaS platforms, realtime chat systems,
+            high-traffic dashboards, and multi-country deployed applications for international clients.
+            Strong focus on system reliability, performance optimization, and clean scalable architecture.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Backend Architecture icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Architecture</h4>
+
+                <p class="service-item-text">
+                  Designing scalable Laravel backend systems, API platforms,
+                  authentication infrastructures, and high-performance database architectures.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Realtime Applications icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Realtime Applications</h4>
+
+                <p class="service-item-text">
+                  Developing modern Vue.js 3 single-page applications with scalable frontend
+                  architecture, state management, and performance-optimized UI systems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="System Scaling & Deployment icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">System Scaling & Deployment</h4>
+
+                <p class="service-item-text">
+                  Production deployment, CI/CD pipelines, caching optimization, and scalable
+                  cloud infrastructure setup for high-traffic platforms.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="API Platform Engineering icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">API Platform Engineering</h4>
+
+                <p class="service-item-text">
+                  Designing secure, scalable, and well-documented RESTful API platforms
+                  powering mobile apps, SaaS systems, and multi-service integrations
+                  with performance-first architecture.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Recommendations</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Mohammad Arafat Hossain" width="60"
+                    data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mohammad Arafat Hossain</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>I had the pleasure of managing Samir at Dinnova AG for the past two years, and I can confidently
+                    say he's an exceptional backend developer and team player. <br> <br>
+
+                    What stands out most about Samir is his independence and problem-solving approach. When faced with
+                    complex challenges, he doesn't just ask for help. He digs in, does the research, and delivers solid
+                    solutions on his own. This made him incredibly reliable across the multiple complex projects we
+                    worked on together. <br> <br>
+                    Beyond his technical capabilities with Laravel and backend systems, Samir excels at managing people.
+                    He took on the responsibility of mentoring junior developers while continuing to contribute
+                    significantly as a developer himself. He has that rare combination of strong technical skills and
+                    genuine leadership ability. He elevates the team around him without creating unnecessary
+                    dependencies. <br> <br>
+
+                    Samir is someone who works best with autonomy, owns his work completely, and collaborates
+                    effectively with teammates. He'd be an excellent fit for senior full-stack role where both technical
+                    depth and leadership is valued. <br> <br>
+
+                    I highly recommend him.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Tasnim Tarannoom" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Tasnim Tarannoom</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I had the pleasure of working with him as my Project Leader. He has strong expertise in Laravel and
+                    Vue.js, and consistently demonstrated a clear understanding of both backend and frontend
+                    development. <br> <br>
+
+                    He is highly organized, supportive, and always open to discussions, which makes collaboration smooth
+                    and productive. <br> <br>
+
+                    I’m grateful for the opportunity to work with him and would confidently recommend him as a skilled
+                    developer and an effective project leader.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Suman Sen" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Suman Sen</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I had the privilege of working under Samir Raihan at Dinnova AG, where he served as my line manager.
+                    Samir is an exceptional engineering leader who combines strong technical expertise with thoughtful
+                    people management. <br> <br>
+
+                    He has a clear vision for building scalable, maintainable systems and consistently guided the team
+                    toward clean architecture, best practices, and high engineering standards. Samir was always
+                    approachable and supportive, whether it was discussing system design, reviewing complex backend
+                    logic, or helping unblock challenges under tight deadlines. <br> <br>
+
+                    What truly sets Samir apart is his leadership style. He trusts his team, encourages ownership, and
+                    creates an environment where engineers feel confident sharing ideas and taking initiative. His
+                    communication with both technical and non-technical stakeholders is clear, respectful, and
+                    effective, which greatly contributed to smooth project execution. <br> <br>
+
+                    Samir is not just a strong Laravel and backend leader, but also a mentor who genuinely cares about
+                    team growth and collaboration. I’m grateful for the opportunity to work with him and would highly
+                    recommend Samir for any senior engineering or leadership role.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-5.png" alt="Milon Roy CSM" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Milon Roy CSM</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I worked with Samir Raihan for over a year at Dinnova AG, where I directly managed him across
+                    multiple projects. As a Senior Software Engineer and Teamlead of my project, he played a key role in
+                    delivering new product features and client driven requirements with strong ownership and quality.
+                    <br> <br>
+
+                    Samir is highly responsible, dedicated, and detail oriented, and I could always count on him to
+                    deliver on time with a positive attitude. He was one of the most valuable assets of my team, and I
+                    strongly recommend him for any engineering leadership role.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Sajjad Shahjahan Anik " width="60"
+                    data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sajjad Shahjahan Anik</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I had the pleasure of working with Samir Raihan at Dinnova AG Ltd., where we collaborated as
+                    teammates on the projects Shine and Skill Match. During this time, Samir consistently demonstrated
+                    strong technical expertise as a backend developer. <br> <br>
+
+                    He has a solid understanding of backend architecture, API development, and database management.
+                    Samir writes clean, efficient, and maintainable code, and he is always attentive to performance and
+                    scalability. His problem-solving skills and logical thinking greatly contributed to the stability
+                    and success of our projects. <br> <br>
+
+                    Beyond his technical strengths, Samir is a reliable team player. He communicates clearly, meets
+                    deadlines, and is always willing to support teammates when needed. Working with him was both
+                    productive and enjoyable. <br> <br>
+
+                    I highly recommend Samir Raihan for any backend development role. I am confident he will be a
+                    valuable asset to any team or organization
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Mohammad Arafat Hossain" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Mohammad Arafat Hossain</h4>
+
+              <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+
+              <div data-modal-text>
+                <p>I had the pleasure of managing Samir at Dinnova AG for the past two years, and I can confidently
+                  say he's an exceptional backend developer and team player. <br> <br>
+
+                  What stands out most about Samir is his independence and problem-solving approach. When faced with
+                  complex challenges, he doesn't just ask for help. He digs in, does the research, and delivers solid
+                  solutions on his own. This made him incredibly reliable across the multiple complex projects we
+                  worked on together. <br> <br>
+                  Beyond his technical capabilities with Laravel and backend systems, Samir excels at managing people.
+                  He took on the responsibility of mentoring junior developers while continuing to contribute
+                  significantly as a developer himself. He has that rare combination of strong technical skills and
+                  genuine leadership ability. He elevates the team around him without creating unnecessary
+                  dependencies. <br> <br>
+
+                  Samir is someone who works best with autonomy, owns his work completely, and collaborates
+                  effectively with teammates. He'd be an excellent fit for senior full-stack role where both technical
+                  depth and leadership is valued. <br> <br>
+
+                  I highly recommend him.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">North South University, Bangladesh</h4>
+
+              <span style="color: gray;">B.Sc. in Computer Science & Engineering (CSE)</span>
+
+              <span>2012 — 2019</span>
+
+              <p class="timeline-text">
+                Completed degree while working professionally due to financial responsibilities, gaining
+                strong practical industry experience alongside academic studies
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dhaka Imperial College</h4>
+
+              <span style="color: gray;">HSC - Science Department</span>
+
+              <span>2010 — 2012</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Junior Laboratory High School</h4>
+
+              <span style="color: gray;">SSC - Science Department</span>
+
+              <span>2008 — 2010</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior Software Engineer (Laravel – Backend Focused)</h4>
+
+              <span style="color: gray;">Dinnova AG (Switzerland Based) · Full-time</span>
+
+              <span>Jun 2025 - Jan 2026</span>
+
+              <p class="timeline-text">
+                Led backend development for multiple Laravel-based production applications, including an AI-powered
+                wellness and hypnosis platform, diet and nutrition apps, and internal management systems. Took ownership
+                of API architecture, authentication and authorization, database optimization, and production stability.
+
+                Contributed to backend refactoring and performance improvements, supported live systems, and
+                participated in code reviews and technical decision-making while collaborating with frontend, QA, and
+                product teams.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer (Laravel & Vue.js)</h4>
+
+              <span style="color: gray;">Dinnova AG (Switzerland Based) · Full-time</span>
+
+              <span>Dec 2023 - Jun 2025</span>
+
+              <p class="timeline-text">
+                Worked on backend-heavy Laravel applications supporting multiple products, including wellness platforms
+                and internal tools. Designed and maintained REST APIs, implemented authentication and authorization,
+                optimized database queries, and supported live production systems.
+
+                Collaborated closely with senior engineers, frontend developers, and QA teams to deliver stable releases
+                and resolve production issues.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Freelance Software Engineer (Laravel & Vue.js)</h4>
+
+              <span style="color: gray;">Fab Lab Sher‐E‐Bangla Agricultural University (SAU) · Freelance</span>
+
+              <span>Jan 2017 - Jan 2025</span>
+
+              <p class="timeline-text">
+                Developed and maintained Laravel-based applications for institutional use, including student management
+                and lab access control systems. Implemented role-based access control (RBAC), improved database
+                performance, and provided ongoing system maintenance and support.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer (Laravel & Vue.js)</h4>
+
+              <span style="color: gray;">Aster Innovation · Full-time</span>
+
+              <span>Jun 2023 - Nov 2023</span>
+
+              <p class="timeline-text">
+                Worked on Laravel backend features and bug fixes for client projects in a remote team environment.
+                Supported existing systems, implemented API enhancements, and assisted with database optimization tasks.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer (Laravel & Vue.js)</h4>
+
+              <span style="color: gray;">Dream71 Bangladesh Ltd. · Full-time</span>
+
+              <span>Mar 2022 - Jun 2023</span>
+
+              <p class="timeline-text">
+                Developed production backend-focused Laravel applications for internal and client-facing systems. Built
+                REST APIs, supported frontend features using Vue.js, and contributed to database design and performance
+                optimization.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer (Laravel / PHP)</h4>
+
+              <span style="color: gray;">NEN GROUP OF COMPANIES · Full-time</span>
+
+              <span>Aug 2014 - Mar 2023</span>
+
+              <p class="timeline-text">
+                Worked on long-term modernization of business systems, migrating WordPress-based solutions to Laravel
+                and CodeIgniter backends. Developed e-commerce, inventory, and internal platforms, optimized database
+                performance, and improved overall system scalability.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+      </article>
+      </article>
+
+
+
+
+
+      <!--
+        - #Skills
+      -->
+
+      <article class="skills" data-page="skills">
+
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+
+        <section class="skill">
+
+          <!-- Core Engineering -->
+          <h4 class="h4 skills-title">Core Engineering Skills</h4>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">PHP / Laravel Architecture</h5>
+                <data value="95">95%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:95%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">REST API & System Design</h5>
+                <data value="95">95%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:95%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Database Design (MySQL / PostgreSQL)</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Queue Systems & Background Processing</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Authentication & Security (Sanctum, JWT, OAuth)</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:90%;"></div>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Frontend -->
+          <h4 class="h4 skills-title" style="margin-top:15px;">Frontend & SPA Development</h4>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Vue.js 3 (Composition API)</h5>
+                <data value="95">95%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:95%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Realtime UI (WebSockets / Reverb / Pusher)</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">TailwindCSS / Responsive UI Engineering</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">State Management & SPA Architecture</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:90%;"></div>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Advanced Systems -->
+          <h4 class="h4 skills-title" style="margin-top:15px;">Advanced Systems & Performance</h4>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Realtime Systems & Chat Architectures</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Caching & Performance Optimization (Redis)</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Scalable Queue / Worker Infrastructure</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Event-Driven Architecture</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:85%;"></div>
+              </div>
+            </li>
+          </ul>
+
+          <!-- DevOps -->
+          <h4 class="h4 skills-title" style="margin-top:15px;">DevOps & Deployment</h4>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Linux Server Deployment</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">CI/CD Pipelines</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Docker / Containerized Environments</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:75%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud Deployment (AWS / DigitalOcean)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:80%;"></div>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Leadership -->
+          <h4 class="h4 skills-title" style="margin-top:15px;">Leadership & Product Engineering</h4>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">System Architecture Planning</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Technical Leadership / Code Review</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Agile Project Delivery</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:85%;"></div>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-info content-card">
+
+          <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:samirraihan93@gmail.com" class="contact-link">samirraihan93@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+8801766932193" class="contact-link">+8801766932193</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mohammadpur, Dhaka, Bangladesh</address>
+            </div>
+
+          </li>
+          <br>
+
+          <!-- linkedin and github -->
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/samirraihan" target="_blank" class="contact-link">linkedin.com/in/samirraihan</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="https://github.com/samirraihan" target="_blank" class="contact-link">github.com/samirraihan</a>
+            </div>
+          </li>
+
+        </ul>
+
+        </section>
+
+      </article>
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
